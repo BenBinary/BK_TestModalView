@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD20FA22229FC69B0012B1B9 /* NotificationNameExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20FA21229FC69B0012B1B9 /* NotificationNameExtension.swift */; };
+		CD20FA24229FCB290012B1B9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD20FA23229FCB290012B1B9 /* SecondViewController.swift */; };
 		CD592E1D229E6711007E19E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD592E1C229E6711007E19E9 /* AppDelegate.swift */; };
 		CD592E1F229E6711007E19E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD592E1E229E6711007E19E9 /* ViewController.swift */; };
 		CD592E22229E6711007E19E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD592E20229E6711007E19E9 /* Main.storyboard */; };
@@ -14,6 +16,11 @@
 		CD592E27229E6712007E19E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD592E25229E6712007E19E9 /* LaunchScreen.storyboard */; };
 		CD592E32229E6712007E19E9 /* BK_TestModalViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD592E31229E6712007E19E9 /* BK_TestModalViewTests.swift */; };
 		CD592E3D229E6712007E19E9 /* BK_TestModalViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD592E3C229E6712007E19E9 /* BK_TestModalViewUITests.swift */; };
+		CD592E4B229E69E0007E19E9 /* DatePopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD592E4A229E69E0007E19E9 /* DatePopupViewController.swift */; };
+		CD592E4E229E6D7E007E19E9 /* DatePopupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD592E4C229E6D7E007E19E9 /* DatePopupViewController.storyboard */; };
+		CD592E50229E6DCD007E19E9 /* SelectTimeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD592E4F229E6DCD007E19E9 /* SelectTimeViewController.storyboard */; };
+		CD592E52229E6E2A007E19E9 /* SelectTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD592E51229E6E2A007E19E9 /* SelectTimeViewController.swift */; };
+		CD592E54229F3867007E19E9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD592E53229F3867007E19E9 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD20FA21229FC69B0012B1B9 /* NotificationNameExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationNameExtension.swift; sourceTree = "<group>"; };
+		CD20FA23229FCB290012B1B9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CD592E19229E6711007E19E9 /* BK_TestModalView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BK_TestModalView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD592E1C229E6711007E19E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD592E1E229E6711007E19E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		CD592E38229E6712007E19E9 /* BK_TestModalViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BK_TestModalViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD592E3C229E6712007E19E9 /* BK_TestModalViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BK_TestModalViewUITests.swift; sourceTree = "<group>"; };
 		CD592E3E229E6712007E19E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD592E4A229E69E0007E19E9 /* DatePopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePopupViewController.swift; sourceTree = "<group>"; };
+		CD592E4D229E6D7E007E19E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = BK_TestModalView/Base.lproj/DatePopupViewController.storyboard; sourceTree = "<group>"; };
+		CD592E4F229E6DCD007E19E9 /* SelectTimeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectTimeViewController.storyboard; sourceTree = "<group>"; };
+		CD592E51229E6E2A007E19E9 /* SelectTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectTimeViewController.swift; sourceTree = "<group>"; };
+		CD592E53229F3867007E19E9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +111,19 @@
 		CD592E1B229E6711007E19E9 /* BK_TestModalView */ = {
 			isa = PBXGroup;
 			children = (
+				CD592E51229E6E2A007E19E9 /* SelectTimeViewController.swift */,
 				CD592E1C229E6711007E19E9 /* AppDelegate.swift */,
+				CD592E4C229E6D7E007E19E9 /* DatePopupViewController.storyboard */,
 				CD592E1E229E6711007E19E9 /* ViewController.swift */,
 				CD592E20229E6711007E19E9 /* Main.storyboard */,
 				CD592E23229E6712007E19E9 /* Assets.xcassets */,
 				CD592E25229E6712007E19E9 /* LaunchScreen.storyboard */,
 				CD592E28229E6712007E19E9 /* Info.plist */,
+				CD592E4A229E69E0007E19E9 /* DatePopupViewController.swift */,
+				CD592E4F229E6DCD007E19E9 /* SelectTimeViewController.storyboard */,
+				CD592E53229F3867007E19E9 /* FirstViewController.swift */,
+				CD20FA21229FC69B0012B1B9 /* NotificationNameExtension.swift */,
+				CD20FA23229FCB290012B1B9 /* SecondViewController.swift */,
 			);
 			path = BK_TestModalView;
 			sourceTree = "<group>";
@@ -230,7 +251,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD592E27229E6712007E19E9 /* LaunchScreen.storyboard in Resources */,
+				CD592E50229E6DCD007E19E9 /* SelectTimeViewController.storyboard in Resources */,
 				CD592E24229E6712007E19E9 /* Assets.xcassets in Resources */,
+				CD592E4E229E6D7E007E19E9 /* DatePopupViewController.storyboard in Resources */,
 				CD592E22229E6711007E19E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD592E54229F3867007E19E9 /* FirstViewController.swift in Sources */,
 				CD592E1F229E6711007E19E9 /* ViewController.swift in Sources */,
 				CD592E1D229E6711007E19E9 /* AppDelegate.swift in Sources */,
+				CD20FA22229FC69B0012B1B9 /* NotificationNameExtension.swift in Sources */,
+				CD20FA24229FCB290012B1B9 /* SecondViewController.swift in Sources */,
+				CD592E4B229E69E0007E19E9 /* DatePopupViewController.swift in Sources */,
+				CD592E52229E6E2A007E19E9 /* SelectTimeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +335,14 @@
 				CD592E26229E6712007E19E9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD592E4C229E6D7E007E19E9 /* DatePopupViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD592E4D229E6D7E007E19E9 /* Base */,
+			);
+			name = DatePopupViewController.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
